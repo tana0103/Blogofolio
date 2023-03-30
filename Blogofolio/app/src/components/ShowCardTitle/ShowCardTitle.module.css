@@ -1,0 +1,16 @@
+.cardtitle{
+display: flex;
+width: 80%;
+margin-left: 20%;
+}
+
+.btnOpen{
+	border: 1px solid goldenrod;
+	margin: auto;
+	padding: 10px;
+	width: 400px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+	background-color: greenyellow;
+}

@@ -1,0 +1,196 @@
+.post{
+	display: flex;
+	width: 100%;
+	height: 15vh;
+	/* margin-bottom: 10px;  */
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px; 
+	text-align: start;
+}
+
+.post2{
+	display: flex;
+		width: 45%;
+		height: 31vh;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 10px; 
+		text-align: start;
+		align-content: space-between;
+}
+
+
+
+.post1{
+	display: flex;
+	/* justify-content: space-around; */
+	flex-direction: column;
+	width: 100%;
+	/* min-width: 300px;
+	min-height: 180px; */
+	/* max-height: 420px; */
+	/* margin: 15px; */
+	/* background: rgb(218, 215, 215); */
+	padding: 15px;
+	text-align: start;
+}
+
+.card{
+width: 100%;
+display: flex;
+height: 70%;
+justify-content: space-between;
+}
+
+.content{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: start;
+}
+
+.posttitle {
+	display: flex;
+	width: 100%;
+	height: 700px;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.contenttitle {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 70%;
+}
+
+.imgtitle {
+	width: 80%;
+	margin: auto;
+	max-height: 60%;
+}
+
+.img{
+	width: 50%;
+	height: 100%;
+}
+
+.img2{
+	width: 100%;
+	height: 60%;
+	margin-bottom: 10px;
+}
+
+.avatar{
+	width: 100%;
+	height: 100%;
+}
+
+.title{
+	font-size: large;
+	text-align: start;
+}
+
+.titlepost{
+	margin: 40px;
+	display: flex;
+	text-align: start;
+	font-size: 30px;
+}
+
+.icon{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 11px 5px;
+}
+
+svg{
+	margin: 0 7px;
+}
+
+path:hover{
+	fill: rgb(20, 27, 238);
+}
+
+path:active {
+	fill: rgb(64, 76, 242);
+}
+
+h1{
+	margin: 0;
+}
+
+h5{
+	margin: 0;
+	font-size: 10px;
+	color: rgba(252, 251, 251, 0.932);
+	text-align: start;
+}
+
+.svg{
+	color: rgb(55, 54, 54);
+	background: none;
+	margin: 0;
+}
+
+button{
+	border: none;
+	background:none;
+	display: flex;
+}
+
+.button{
+	display: flex;
+}
+
+hr{
+	color: black;
+}
+
+.postsearch{
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	height: 200px;
+	width: 75%;
+	padding-top: 50px;
+}
+
+.cardsearch{
+	display: flex;
+	width: 100%;
+	height: 70%;
+}
+
+.imgsearch{
+	width: 30%;
+	height: 100%;
+}
+
+.contentsearch{
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+	padding: 15px;
+}
+
+.modaldiv{
+	width: 300px;
+	height: 200px;
+	margin: auto;
+}
+
+.modalavatar{
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 700px) {
+	.post2{
+		width: 100%;
+	}
+}

@@ -1,0 +1,13 @@
+.dark {
+	background: rgb(100, 100, 100);
+	color: beige;
+	min-height: 100vh;
+	padding-top: 50px;
+}
+
+.light {
+	background: #E5E5E5;
+	color: black;
+	min-height: 100vh;
+	padding-top: 50px;
+}

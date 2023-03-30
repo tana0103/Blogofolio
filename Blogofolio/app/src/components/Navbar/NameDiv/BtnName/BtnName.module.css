@@ -1,0 +1,12 @@
+.btnuser{
+	background: none;
+	max-width: 55px;
+	height: 70%;
+	color: rgb(253, 250, 246);
+	font-size: 28px;
+	border: none;
+}
+
+.btnuser:hover {
+background: rgb(151, 151, 236);
+}

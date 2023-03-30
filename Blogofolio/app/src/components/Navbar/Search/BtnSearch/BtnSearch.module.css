@@ -1,0 +1,10 @@
+.btnsearch{
+	width: 100%;
+	height: 100%;
+	background: none;
+	color: white;
+	font-size: larger;
+	border-left: none;
+	border: none;
+	cursor: pointer;
+}

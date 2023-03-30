@@ -1,0 +1,62 @@
+.menuopen {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 28px;
+	color: aliceblue;
+	text-decoration: none;
+	margin-top: 50px;
+	position: fixed;
+	min-width: 15%;
+}
+
+.divname{
+height: 10vh;
+display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background: #2231AA;
+	border-top: 1px solid blueviolet;
+	padding: 0 10px;
+}
+
+.divhome{
+height: 10vh;
+display: flex;
+	border-top: 1px solid blueviolet;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background: #2231AA;
+}
+
+.divaddpost{
+	height: 53vh;
+	display: flex;
+	border-top: 1px solid blueviolet;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-right: 1px solid blueviolet;
+}
+
+.divtheme{
+	height: 10vh;
+	display: flex;
+	border-top: 1px solid blueviolet;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	background: #2231AA;
+}
+
+.divlogout{
+	height: 10vh;
+	display: flex;
+	border-top: 1px solid blueviolet;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background: #2231AA;
+}

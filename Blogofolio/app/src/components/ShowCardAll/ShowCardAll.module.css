@@ -1,0 +1,101 @@
+.all{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.posts{
+	max-width: 1170px;
+	display: flex;
+	padding-top: 50px;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.posts1{
+	width: 65%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.posts2{
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	justify-content: space-between;
+		align-content: space-between;
+}
+
+.cardall{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+button{
+	background: none;
+}
+
+.btnOpen {
+	border: 1px solid goldenrod;
+	margin: auto;
+	padding: 10px;
+	width: 400px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+	background-color: greenyellow;
+	margin-bottom: 20px;
+}
+
+.link {
+	text-decoration: none;
+	margin: 15px;
+	font-size: 40px;
+	color: black;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.link:active {
+	text-decoration: underline;
+}
+
+.cardsearch {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+
+@media (max-width: 700px) {
+	.posts {
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		padding: 15px;
+	}
+	.posts1{
+		width: 100%;
+		justify-content: center;
+	}
+	.cardall{
+		flex-direction: column;
+		width: 100%;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	.posts2{
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+}

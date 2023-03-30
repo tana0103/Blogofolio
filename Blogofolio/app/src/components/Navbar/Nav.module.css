@@ -1,0 +1,40 @@
+.menu{
+	background: rgb(29, 29, 247);
+	box-sizing: border-box;
+	width: 1170px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	border: 1px solid rgb(151, 151, 236);
+	font-size: 30px;
+}
+
+.burgermenu{
+	width: 10%;
+}
+
+.search{
+	width: 55%;
+}
+
+.search2{
+	width: 70%;
+}
+
+.searchclose{
+	width: 10%;
+}
+
+.glass{
+	width: 10%;
+}
+
+.user{
+	width: 25%;
+}
+
+.userimg{
+	width: 10%;
+}

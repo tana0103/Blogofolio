@@ -1,0 +1,76 @@
+.menu {
+	background: #2231AA;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-size: 30px;
+	border-right: 1px solid blueviolet;
+	position: fixed;
+	padding: auto;
+	margin: 0 auto;
+}
+
+.dark {
+	background: rgb(100, 100, 100);
+	color: beige;
+}
+
+.light {
+	background: none;
+	color: black;
+}
+
+.burgermenu {
+	width: 10%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.search {
+	width: 55%;
+}
+
+.search2 {
+	width: 70%;
+}
+
+.searchclose {
+	width: 10%;
+}
+
+.glass {
+	width: 10%;
+}
+
+.user {
+	width: 25%;
+	text-decoration: none;
+}
+
+.userimg {
+	width: 10%;
+}
+
+.menuopen{
+	width: 20%;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+}
+
+.btnOpen {
+	border: 1px solid goldenrod;
+	margin: auto;
+	padding: 10px;
+	width: 400px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+	background-color: greenyellow;
+}
