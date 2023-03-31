@@ -26,7 +26,7 @@ export const GetPostSearch = (search: string) => {
 export const GetPostId = (id: number) => {
 	return fetch(url + id)
 		.then(response => response.json())
-		.then((response: ResType) => (response.results))
+		// .then((response: ResType) => (response.results))
 }
 export const getPostById = (id: string = '1') => {
 	return fetch('https://mockside.vercel.app/api/posts/' + id)

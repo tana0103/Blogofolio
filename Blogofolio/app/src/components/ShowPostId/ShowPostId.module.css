@@ -1,0 +1,45 @@
+.cardtitle {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.avatarid{
+	width: 50%;
+	height: 40vh;
+}
+
+.imgid{
+	width: 100%;
+	height: 100%;
+}
+
+.contentid{
+	margin-left: 15px;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+}
+
+@media (max-width: 750px) {
+	.cardtitle{
+		width: 100%;
+		flex-direction: column;
+		margin-left: 0px;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	
+	.avatarid{
+		width: 80%;
+	}
+
+	.contentid{
+		width: 95%;
+	}
+}

@@ -13,6 +13,7 @@ import { LogOut } from './components/LogOut/LogOut';
 import { PostItem } from './components/PostItem/PostItem';
 import { SignInPage } from './components/SignIn/SignIn';
 import { NotFound } from './components/NotFound/NotFound';
+import { ShowPostId } from './components/ShowPostId/ShowPostId';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='user' element={<SignUp />} />
           <Route path='about-us' element={<Navigate to={'/about'} replace />} />
           <Route path='posts' element={<Post />} />
+          <Route path='post' element={<ShowPostId/>} />
           <Route path='confirm' element={<RegConfirm />} />
           <Route path='addposts' element={
             <RequireAuth >

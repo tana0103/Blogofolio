@@ -14,3 +14,14 @@ margin-left: 20%;
 	justify-content: center;
 	background-color: greenyellow;
 }
+
+@media (max-width: 750px) {
+	.cardtitle {
+		width: 100%;
+		flex-direction: column;
+		margin-left: 0px;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+}
